@@ -12,7 +12,7 @@
     Automatically update your <a href="https://scoop.sh/">scoop</a> packages.
     <br />
     <br />
-    <a href="https://github.com/yuri-becker/scoop-auto-update/issues">Report a Bug</a>
+    <a href="https://github.com/yuri-becker/scoop-auto-update/issues">Report a Bug or suggest a feature</a>
 </div>
 
 
@@ -40,3 +40,6 @@ Simply remove the scoop-auto-update folder and delete the scheduled task called 
 ```powershell
 Unregister-ScheduledTask -TaskName ScoopAutoUpdate
 ```
+
+If you get `'Unregister-ScheduledTask' is not recognized as an internal or external command,
+operable program or batch file.` you are in cmd and not in the PowerShell. It's 2024 (at least), so please ditch cmd.
